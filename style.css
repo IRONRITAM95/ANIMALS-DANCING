@@ -1,0 +1,20 @@
+.header{
+    background-color:coral;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color:maroon;
+}
+#top{
+    margin-top: 10px;
+}
+.main_div{
+    background: linear-gradient(lime, rgb(62, 62, 233), rgb(185, 24, 185));
+}
+.footer{
+    background-color: dodgerblue;
+    font-style: italic;
+    font-weight: bold;
+    color: lightgoldenrodyellow;
+    font-size: 25px;
+    text-align: center;
+}

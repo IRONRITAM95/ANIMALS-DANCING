@@ -1,0 +1,36 @@
+
+<html>
+    <head>
+      <title>Sound Identification Web App</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+      <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+      <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+  
+    <body>
+        
+        <div class="col-xs-12 header">
+          <h1>SOUND CONTROLLING ANIMALS</h1>
+            <p>NOTE: PLAY DIFFERNT SOUNDS LIKE(BARK, MEOW, MOOOOOO, AND ROAR NOIZE) TO MAKE THE ANIMALS DANCE</p>
+        
+          </div>
+        
+        <div class="main_div"><center>
+          
+          <button id="top" class="btn btn-warning" onclick="hearing()">HEAR</button>
+          <h3 id="sound">I CAN HEAR :<span id="noize"></span></h3>
+          <br>
+          <h3 id="accuracy">ACCURACY:<span id="percent"></span></h3>
+          <br><br><br>
+          <img id="animal" src="" width="300" height="300">
+        </center></div>
+  
+        <div class="footer">CREDITS:LIGHTNING RITAM</div>
+        
+  <script src="main.js"></script>
+    </body>
+  </html>
+  
